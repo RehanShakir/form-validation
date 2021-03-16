@@ -1,0 +1,39 @@
+.myForm {
+  margin-bottom: 20px;
+}
+.myForm > input {
+  margin-top: 20px;
+}
+#name {
+  margin-left: 149px;
+}
+#email {
+  margin-left: 152px;
+}
+#password {
+  margin-left: 121px;
+}
+#confirmPassword {
+  margin-left: 60px;
+}
+.formBtn {
+  margin-top: 20px;
+  margin-left: 311px;
+}
+p {
+  padding-left: 205px;
+  margin-bottom: -10px;
+  color: red;
+}
+label.error {
+  color: black;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+label {
+  width: 300px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
