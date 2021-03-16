@@ -17,7 +17,7 @@ function handleFormSubmit(e) {
   } else if ($("#password").val() != $("#confirmPassword").val()) {
     $("#confirmpasswordP").text("Password not Matched");
   } else {
-    alert("Form is being submitted");
+    $("#submitP").text("Form is being submitted");
   }
 
   e.preventDefault();
