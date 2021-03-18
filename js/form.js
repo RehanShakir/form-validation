@@ -2,8 +2,6 @@ $(function () {
   $(".myForm").submit(handleFormSubmit);
 });
 
-console.log($("#name").val());
-
 function handleFormSubmit(e) {
   if ($("#name").val() <= 5) {
     $("#name").css({ border: "2px solid red" });
@@ -15,10 +13,10 @@ function handleFormSubmit(e) {
     $("#password").css({ border: "2px solid red" });
     $("#passwordP").text("Password Must be at least 8 characters long");
   } else if ($("#password").val() != $("#confirmPassword").val()) {
+    $("#password").css({ border: "2px solid red" });
     $("#confirmpasswordP").text("Password not Matched");
   } else {
     $("#submitP").text("Form is being submitted");
   }
-
   e.preventDefault();
 }
